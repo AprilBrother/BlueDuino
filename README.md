@@ -1,2 +1,3 @@
 # BlueDuino
-http://wiki.aprbrother.com/wiki/BlueDuino_rev2
+
+See [wiki](http://wiki.aprbrother.com/wiki/BlueDuino_rev2)
