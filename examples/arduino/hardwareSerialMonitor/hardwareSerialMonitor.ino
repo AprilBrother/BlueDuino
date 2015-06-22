@@ -9,11 +9,7 @@ void setup() {
     ; // wait for serial port to connect. Needed for Leonardo only
   }
   Serial.println("Hello BlueDuino!");
-  
-  // Enable esp8266 
-  pinMode(13, OUTPUT);
-  digitalWrite(13, HIGH);  
-};
+}
 
 void loop() {
 
