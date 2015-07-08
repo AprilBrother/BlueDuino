@@ -1,8 +1,5 @@
-#include <AB_BLE.h>
-
 #define BAUD_RATE 9600
 
-AB_BLE ble(Serial1);
 String tmp; 
 
 void setup() {
@@ -12,7 +9,6 @@ void setup() {
     ; // wait for serial port to connect. Needed for Leonardo only
   }
 
-  AB_BLE
   Serial.println("Hello BlueDuino!");
 }
 
