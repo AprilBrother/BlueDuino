@@ -7,7 +7,6 @@ class AB_BLE {
 
     public:
         AB_BLE(Stream *s = &Serial1);
-        void begin(unsigned long bound);
         void write(unsigned char dat);
         void writeBytes(unsigned char *dat, unsigned char len);
 
@@ -15,8 +14,7 @@ class AB_BLE {
         int read();
 
     private:
-        Stream    *stream,     // -> BLE module, e.g. SoftwareSerial or Serial1
-
-}
+        Stream    *stream;     // -> BLE module, e.g. SoftwareSerial or Serial1
+};
 
 #endif

@@ -1,10 +1,6 @@
 #include "AB_BLE.h"
 
-AB_BLE::AB_BLE(Stream *s) : (stream(s)){};
-
-void AB_BLE::begin(unsigned long bound) {
-    stream->begin(bound);
-}
+AB_BLE::AB_BLE(Stream *s) : stream(s) {};
 
 int AB_BLE::available() {
     return stream->available();
