@@ -1,4 +1,4 @@
-# BlueDuino
+# BlueDuino R2
 
 ![BlueDuino](http://7fvk57.com1.z0.glb.clouddn.com/blueduino_2.jpg-640.jpg)
 
